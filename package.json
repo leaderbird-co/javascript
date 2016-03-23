@@ -1,7 +1,11 @@
 {
   "name": "leaderbirdco_javascript",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leaderbird-co/javascript"
+  },
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +15,7 @@
   "devDependencies": {
     "browserify": "^12.0.1",
     "gulp": "^3.9.0",
+    "gulp-minify": "0.0.7",
     "gulp-watch": "^4.3.5",
     "jssha": "^2.0.2",
     "vinyl-source-stream": "^1.1.0"
